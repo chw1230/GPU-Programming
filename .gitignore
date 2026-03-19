@@ -1,0 +1,14 @@
+# Visual Studio
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+
+# glfw 소스
+glfw-3.4/
+
+# OS
+.DS_Store
+Thumbs.db
