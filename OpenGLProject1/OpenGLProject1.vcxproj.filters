@@ -21,7 +21,10 @@
     <ClCompile Include="week2_UniformColor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="week2_.cpp">
+    <ClCompile Include="week2_ShaderClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
