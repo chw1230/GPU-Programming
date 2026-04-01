@@ -24,12 +24,62 @@
     <ClCompile Include="week2_ShaderClass.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="소스.cpp">
+    <ClCompile Include="week3_TextureMapping.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="week4_CameraTest_all.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="week4_CameraTest_button.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="shader\3.3.shader.fs" />
     <None Include="shader\3.3.shader.vs" />
+    <None Include="shader\7.4.camera.fs" />
+    <None Include="shader\7.4.camera.vs" />
+    <None Include="shader\4.1.texture.fs" />
+    <None Include="shader\4.1.texture.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\filesystem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shader_m.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb_image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KHR\khrplatform.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3native.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GLFW\glfw3.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="include\glad\glad.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libs\glfw3.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\brick.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resources\textures\stone.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="resources\textures\sumung.jpeg">
+      <Filter>리소스 파일</Filter>
+    </Image>
   </ItemGroup>
 </Project>
